@@ -1,13 +1,13 @@
 :root {
     --white: #ffffff;
-    --black: #212121;
-    --yellow: #efc340;
-    --secondary: #35a4b0;
+    --black: #1a0b72;
+    --yellow: #363276;
+    --secondary: #58c488;
     --gray: #757575;
 }
 
 h1, p {
-    color: var(--white)
+    color: var(--black)
 }
 
 header {
@@ -26,7 +26,7 @@ header {
     box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
 }
 
-.image {
+.photo {
     max-width: 200px;
 }
 
@@ -53,10 +53,10 @@ footer {
     background-color: var(--secondary);
     display: grid;
     max-width: 600px;
-    grid-template-columns: 350px;
+    grid-template-columns: 250px;
     padding: 0.5rem;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 30px auto;
     text-align: center;
     justify-content: center;
     -webkit-box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
