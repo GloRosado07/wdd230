@@ -1,0 +1,28 @@
+@media only screen and (min-width: 60em) {
+    .container {
+        max-width: 120rem;
+        margin: 5px 20px 5px 20px;
+    }    
+    
+    .principles{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 1rem;   
+    }
+
+    h3 {
+        background-color: var(--secondary);
+        text-align: left;
+    }
+    
+    .content {
+        text-align: justify;
+        line-height: 1.5;
+        padding: 0 5%;
+    }
+
+    .picture {
+        width: 100%;
+    }
+
+}
