@@ -12,9 +12,7 @@
         max-width: 200px;
     }
 
-    #lastmod {
-        color: var(--light);
-    }
+   
 
     main {
         color: var(--green);

@@ -1,8 +1,7 @@
 :root {
-    --white: #ffffff;
-    --green: #1D4929;
-    --light: #2F7541;
-    --secondary: #F57E66;
+    --black: #111010;
+    --green: #304a38;
+    --secondary: #e58875;
     --gray: #757575;
 }
 
@@ -69,10 +68,7 @@ footer {
     -webkit-box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
     -moz-box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
     box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
-}
-
-#las-tmod {
-    color: var(--light);
+    color: var(--green)
 }
 
 
