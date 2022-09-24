@@ -1,5 +1,5 @@
 :root {
-    --black: #111010;
+    --aqua: #5bd1d1;
     --blue: #030946;
     --secondary: #18b2c0;
     --gray: #757575;
@@ -44,7 +44,7 @@ h3 {
 }
 
 h4 {
-    color: var(--blue);   
+    color: var(--aqua);   
 }
 
 .picture {
@@ -52,7 +52,7 @@ h4 {
 }
 
 a {
-    color: var(--blue)
+    color: var(--aqua)
 }
 
 footer  {
