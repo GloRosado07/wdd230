@@ -1,15 +1,14 @@
 :root {
-    --white: #ffffff;
-    --green: #1D4929;
-    --light: #2F7541;
-    --secondary: #F57E66;
-    --gray: #b2b2b2;
+    --black: #111010;
+    --blue: #030946;
+    --secondary: #18b2c0;
+    --gray: #757575;
 }
 
 header {
 	text-align: center;
 	background-color: var(--secondary);
-	color: var(--green);
+	color: var(--blue);
 }
 
 .container {
@@ -41,23 +40,30 @@ h3 {
     text-align: left;
     margin: 0;
     padding: 10px;
-    color: var(--green);
+    color: var(--blue);
 }
 
 h4 {
-    color: var(--green);   
-}
-
-footer  {
-    text-align: center;
-    background-color: var(--secondary);
-    color: var(--green);
-    font-size: 15px;
-    padding: 0 3px 3px 2px;
+    color: var(--blue);   
 }
 
 .picture {
     width: 100%;
 }
+
+a {
+    color: var(--blue)
+}
+
+footer  {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--blue);
+    font-size: 15px;
+    padding: 0 3px 3px 2px;
+    padding: 10px;
+}
+
+
 
 
