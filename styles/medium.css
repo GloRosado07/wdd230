@@ -16,7 +16,7 @@
         color: var(--light);
     }
 
-    section {
+    main {
         color: var(--green);
         text-align: left;
         margin: 0 auto;
