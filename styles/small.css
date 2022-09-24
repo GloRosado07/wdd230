@@ -36,7 +36,7 @@ header {
     max-width: 100px;
 }
 
-section {
+main {
     color: var(--green);
     text-align: left;
     margin: 0 auto;
@@ -71,7 +71,7 @@ footer {
     box-shadow: -18px -12px 38px -9px rgba(117,117,117,0.72);
 }
 
-#lastmod {
+#las-tmod {
     color: var(--light);
 }
 
