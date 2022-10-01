@@ -87,7 +87,7 @@ nav ul li a {
 
 nav li a:hover{
     background-color: var(--darkprimary);
-    margin: 1rem;
+    
 }
 
 
