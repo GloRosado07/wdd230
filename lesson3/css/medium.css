@@ -1,0 +1,19 @@
+@media(min-width: 37.5em) {
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fill, min-max(130px 1fr));
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav li a:hover{
+        background-color: var(--darkprimary);
+        margin: 1rem;
+    }
+
+
+}

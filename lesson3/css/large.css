@@ -1,0 +1,10 @@
+@media(min-width: 60em) {
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    nav li a:hover{
+        background-color: var(--darkprimary);
+        margin: 1rem;
+    }
+}
