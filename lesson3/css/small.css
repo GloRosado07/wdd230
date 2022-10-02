@@ -33,6 +33,7 @@ h1 {
     text-align: center;
     color: var(--darksecondary);
     font-family: var(--mainfont);
+    align-self: center;
 }
 
 h2 {
@@ -74,6 +75,8 @@ nav {
 nav ul {
     list-style: none;
     overflow: hidden;
+    padding: 0%;
+    border-radius: 2rem;
 }
 
 nav ul li a {

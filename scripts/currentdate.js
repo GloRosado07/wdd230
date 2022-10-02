@@ -1,8 +1,8 @@
 const d = new Date();
 const year = d.getFullYear();
 
-document.querySelector("#currentYear").textContent = year;
-document.querySelector("#pageLastUpdated").innerHTML = `Last update: ${document.lastModified}`;
+document.querySelector("#currentyear").textContent = year;
+document.querySelector("#pagelastupdated").innerHTML = `Last update: ${document.lastModified}`;
 
 
 //tolocaleDateString
