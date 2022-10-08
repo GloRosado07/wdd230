@@ -1,0 +1,262 @@
+:root {
+  --primary: #f1f5f5;
+  --darkprimary: #04423d;
+  --secondary: #76dede;
+  --darksecondary: #0D3B66;
+  --gray: #949494;
+
+
+  --mainfont: 'Staaliches', cursive;
+}
+
+body {
+  font-family: var(--mainfont);
+  font-size: 16px;
+  background-color: var(--primary);
+}
+
+#banner {
+  display:none;
+  background-color: var(--darkprimary);
+  text-align: center;
+  padding: .5rem;
+}
+
+
+/*************
+  Header
+*************/
+header {
+  display: grid;
+  grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-size: .7em;
+  background-color: var(--secondary);
+  color: var(--darkprimary);
+  padding: .6em;
+  grid-column-gap: .8rem;
+}
+
+.logo {width: 10px;}
+
+h1 {
+  padding-left: 5px;
+  justify-self: start;
+}
+
+button {
+  background-color: var(--gray);
+  color: var(--darksecondary);
+  border: none;
+  font-size: 2em;
+}
+
+button:hover {cursor: pointer;}
+
+.extra {display: none;}
+
+.date {
+  grid-row: 2/3;
+  grid-column: 1/5;
+  align-self: center;
+  font-family: var(--mainfont);
+  color: var(--darksecondary);
+}
+
+nav {
+margin: 0 auto;
+max-width: 760px;
+}
+.navigation {
+list-style: none;
+padding: 0;
+  margin: 0;
+  padding: .5rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0;
+  font-size: 1em;
+  top: 18%;
+}
+
+.navigation li {display: none;}
+
+.navigation a {
+display: block;
+padding: 0.75rem 2vw;
+text-decoration: none;
+color: var(--darksecondary);
+transition: 0.2s;
+  font-size: x-large;
+}
+
+nav ul li.active a, .navigation a:hover {background-color: var(--primary);}
+
+.hidden {display: none;}
+
+.toggle-btn {padding: 1em;}
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.responsive li {display: block;}
+
+
+ul.responsive {
+  z-index: 1;
+}
+
+.responsive a {background-color: var(--darkprimary);
+}
+
+/*************
+  Main
+*************/
+main {
+  margin-bottom: .5rem;
+  font-size: 1em;
+  max-width: 800px;
+}
+
+h2 {
+  color: var(--gray);
+  background-color: var(--secondary);
+  font-size: xx-large;
+  text-align: center;
+  padding: 2rem;
+  margin:0;
+}
+
+main section {background-color: var(--gray);}
+
+main section h4, main section p {font-weight: lighter;}
+
+main section p a {
+  color: var(--gray);
+  font-weight: normal;
+  padding: 0 .25em;
+}
+
+main section p a:hover {color: var(--gray);}
+
+/*************
+  Footer
+*************/
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: var(--secondary);
+  color: var(--darkprimary);
+}
+
+footer h3 {
+  padding-left: .5em;
+}
+
+.contact-info a {color: var(--gray);}
+
+.contact-info a:hover {color: var(--gray);}
+
+.wdd-info {padding: .5rem;}
+
+
+/*************
+  Home
+*************/
+
+.home-main section:not(:first-child){
+  padding: .5em;
+}
+
+.home-main section h3 {
+  color: var(--darksecondary);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+  margin: 0;
+}
+
+.join h3 {
+  background-color: var(--secondary);
+}
+
+.spotlight {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.spotlight div {
+  border: 4px dashed var(--darksecondary);
+  margin: 0;
+}
+
+.spotlight h3 {
+  background-color: var(--secondary)
+}
+
+.home-main section .home-section-heading {
+  text-align: left;
+}
+
+.spotlight img {
+  width: 150px;
+  min-height: 100px;
+  padding-top: .75rem;
+}
+
+#spotlight3 {display: none;}
+
+.join {display: none;}
+
+.logo {width: 75px;}
+
+.icon {width: 40px;}
+
+.social a img {
+  padding: .3em;
+}
+
+.hero {
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+}
+
+.hero .hero-photo {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  z-index: -1;
+  margin: 0;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero h2 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  padding: 1em;
+  color: var(--darksecondary);
+  background-color: var(--secondary);
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  font-size: 2em;
+}
+
+#current-temp {
+  padding-left: 20px;
+}
+
+.news h3 {
+  padding: 1em 1em .5em 1em;
+  background-color: var(--secondary);
+}

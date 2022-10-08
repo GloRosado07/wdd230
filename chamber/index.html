@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gloria Rosado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guapiles Chamber of Commerce </title>
+    <meta name="description" content="The page ot the Guapiles Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Itim&family=Josefin+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet"> 
+</head>
+<body>
+    <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Tuesdays at 6:00 p.m </div>
+    <header>
+        <img src="images/logo-small-icon-only.png" alt="Utah Valley Chamber of Commerce logo" class="logo">
+        <h1> Guapiles <span class="extra"><br> Chamber of Commerce </span></h1>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="index.html"> Home </a></li>
+                <li><a href="discover.html"> Discover </a></li>
+                <li><a href="directory.html"> Directory </a></li>
+                <li><a href="join.html"> Join </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            <em>Friday, October 7 2022</em>
+        </div>
+    </header>
+
+    <main>
+        <div class="home-main">
+            <section class="hero">
+                <h2> Welcome to Guapiles </h2>
+                <picture class="hero-photo">
+                    <source media="(max-width: 33.9em)" srcset="images/UtahValleySmall.jpg">
+                    <source media="(max-width: 829px)" srcset="images/UtahValleyMedium.jpg">
+                    <source media="(max-width: 1400px)" srcset="images/UtahValleyLarge.jpg">
+                    <img src="images/manzanillo.jpg" alt="manzanillo">
+                </picture>
+                
+            </section>
+            <section class="event">
+                <h3> EVENTS </h3>
+            </section>
+            <section class="weather">
+                <h3> WEATHER* </h3>
+                <img src="#" alt="" id="weathericon">
+            </section>
+            <section class="join">
+                <h3 class="home-section-heading"> JOIN </h3>
+               
+            </section>
+            <section class="news">
+                <h3> NEWS </h3>
+            </section>
+            <section class="spotlight">
+                <h3 class="home-section-heading">SPOTLIGHT</h3>
+                    <div class="spotlight-item">
+                    </div>
+                    <div class="spotlight-item">
+                    </div>
+                    <div class="spotlight-item" id="spotlight3">
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="company">
+                <img src="images/logo_small_icon_only_inverted.png" alt="Guapiles logo" class="logo">
+                <h3> Guapiles Chamber of Commerce </h3>
+                <p> Centro de Convenciones Pococi</p>
+            </section>
+            <div class="contact">
+                <p class="contact-info"> guapiles@gmail.com </p>
+                <p class="contact-info"> (506) 210-5608</p>
+            </div>
+        </div>
+        <hr>
+        <div class="wdd-info">&copy;<span id="currentyear"></span> | Gloria Rosado | Costa Rica</div>
+        <span id="pagelastupdated"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/ham.js"></script>
+</body>
+</html>

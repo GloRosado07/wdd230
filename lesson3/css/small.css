@@ -1,7 +1,7 @@
 :root {
     --primary: #FAF0CA;
-    --darkprimary: #F95738;
-    --secondary: #F4D35E;
+    --darkprimary: #059387;
+    --secondary: #40c0c9;
     --darksecondary: #0D3B66;
     --gray: #949494;
 
@@ -25,13 +25,13 @@ body {
 .text {
     font-size: 1.8rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--darkprimary);
+    color: var(--darksecondary);
 }
 
 h1 {
     font-size: 4rem;
     text-align: center;
-    color: var(--darksecondary);
+    color: var(--darkprimary);
     font-family: var(--mainfont);
     align-self: center;
 }
@@ -59,7 +59,7 @@ h3 {
     margin: 10px auto;
 }
 
-.header__logo, .container__image {
+.header__logo{
     margin: 3rem 0;
 }
 
