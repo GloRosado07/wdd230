@@ -4,6 +4,6 @@
     }
 
     nav li a:hover{
-        background-color: var(--darkprimary);
+        background-color: var(--gray);
     }
 }

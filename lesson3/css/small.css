@@ -1,7 +1,7 @@
 :root {
-    --primary: #FAF0CA;
-    --darkprimary: #059387;
-    --secondary: #40c0c9;
+    --primary: #f1f5f5;
+    --darkprimary: #04423d;
+    --secondary: #44e6e6;
     --darksecondary: #0D3B66;
     --gray: #949494;
 
@@ -24,7 +24,7 @@ body {
 
 .text {
     font-size: 1.8rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--mainfont);
     color: var(--darksecondary);
 }
 
@@ -89,8 +89,9 @@ nav ul li a {
 }
 
 nav li a:hover{
-    background-color: var(--darkprimary);
+    background-color: var(--gray);
 }
+
 
 
 /*Footer*/
