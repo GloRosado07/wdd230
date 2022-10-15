@@ -1,8 +1,9 @@
 :root {
-    --aqua: #efef86;
-    --blue: #030946;
-    --secondary: #18b2c0;
-    --gray: #757575;
+    --primary: #B6AD90;
+    --darkprimary: #3F220A;
+    --secondary: #7c9760;
+    --darksecondary: #333D29;
+    --gray: #C2C5AA;
 }
 
 header {

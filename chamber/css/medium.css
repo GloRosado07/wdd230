@@ -44,7 +44,12 @@
       grid-column: 1/4;
       grid-row: 1/2;
       position: relative;
-      max-width: 700px;
+      max-width: 900px;
+  }
+
+  .hero-photo img {
+    width: 95%;
+    height: 100%;
   }
 
   .news {
