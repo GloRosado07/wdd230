@@ -63,7 +63,7 @@ button:hover {
   grid-column: 1/5;
   align-self: center;
   font-family: var(--mainfont);
-  color: var(--darksecondary);
+  color: var(--darkprimary);
 }
 
 nav {
