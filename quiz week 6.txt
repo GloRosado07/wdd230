@@ -1,0 +1,27 @@
+What HTML5 element lets you define zero or more <source> elements, followed by one <img> element, optionally intermixed with script-supporting elements, essentially allowing you to define more than one image based on the view and browser support.
+<picture>
+
+Optimization is the process of trying to find the magical balance between and file size.
+
+quality 
+
+Which of the following choices completes this statement at the blank?
+
+Device-pixel ratio is the number of device pixels per                                pixel.
+CSS
+
+Which of the following is the correct way to tell the browser how much space to reserve for the image while it loads to help prevent cumulative layout shiftsLinks to an external site.? 
+   <img src="images/frontier.jpg" alt="Frontier Decorative Backing" width="300" height="250">
+
+
+What CSS property sets one or more background images on an element? 
+background-image 
+
+
+Match each image file format that can be used on the web with a correct summary description of use. 
+BMP Should not be used on the web as it is not a compressed image format leading to very large files. 
+GIF  simple images and animations 
+JPEG Most popular choice and widely used image type for lossy compression of still images/photographs.
+PNG Preferred for more precise reproduction of source images or when transparency is needed and it produces better compression. 
+SVG Ideal for interface elements, icons, diagrams that can support many sizes with accuracy. 
+WEBP Best compression option for images and animated images with higher color depths. 
