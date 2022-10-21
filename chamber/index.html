@@ -45,7 +45,10 @@
         <div class="home-main">
             <section class="hero">
                 <picture class="hero-photo">
-                    <img src="images/manzanillo.jpg" alt="manzanillo">
+                    <source media="(max-width: 200px)" srcset="images/manzanillo-200px.jpg">
+                    <source media="(max-width: 400px)" srcset="images/manzanillo-400px.jpg">
+                    <source media="(max-width: 600px)" srcset="images/manzanillo-600px.jpg">
+                    <img src="images/manzanillo-800px.png" alt="manzanillo">
                 </picture>
                 <h2> Welcome to Guapiles </h2>
             </section>
@@ -57,6 +60,10 @@
             <section class="weather">
                 <h3> WEATHER </h3>
                 <img src="images/icon-weather.png" alt="weather info" id="weathericon">
+                <h4><span id="current-temp"></span> &#176;F</h4>
+                <h5><span id="desc"></span></h5>
+                <p>Wind Speed:  <span id="speed"></span> mph</p>
+                <p>Wind Chill:  <span id="windchill"></span></p>t
             </section>
             <section class="join">
                 <h3>JOIN US</h3>
@@ -107,5 +114,6 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/ham.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
