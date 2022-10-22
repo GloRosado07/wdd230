@@ -15,10 +15,9 @@ body {
 }
 
 .banner {
-  display:none;
-  background-color: var(--secondary);
+  grid-row: 3/3;
+  grid-column: 1/5;
   text-align: center;
-  padding: .5rem;
 }
 
 
@@ -53,7 +52,6 @@ button {
 
 button:hover {
   cursor: pointer;
-
 } 
 
 .extra {display: none;}
@@ -92,14 +90,14 @@ text-decoration: none;
 color: var(--darkprimary);
 transition: 0.2s;
 font-size: x-large;
-
 }
 
 nav ul li.active a, .navigation a:hover {background-color: var(--gray);
   }
 
-.hidden {display: none;}
-
+.hidden {
+  display: none;
+}
 .toggle-btn {padding: 1em;}
 
 .social {
@@ -254,7 +252,7 @@ footer h3 {
 }
 
 .hero-photo img {
-  width: 50%;
+  width: 90%;
   height: 100%;
   float: left;
 }
