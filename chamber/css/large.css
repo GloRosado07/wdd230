@@ -89,6 +89,7 @@
 	.hero-photo img {
 		width: 97%;
 		height: 100%;
+		float: leftf;
 	
 	  }
 
@@ -121,7 +122,6 @@
 	.spotlight-item p {
 		margin-block-start: .5rem;
 		margin-block-end: .5rem;
-
 	}
 
 	#spotlight3 {display: initial;}
