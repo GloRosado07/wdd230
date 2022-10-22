@@ -160,4 +160,9 @@
 		grid-row: 1/2;
 		margin-top: 2rem;
 	}
+
+	footer {
+		text-align: center;
+	}
 }
+

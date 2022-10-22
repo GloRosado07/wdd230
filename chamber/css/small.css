@@ -90,6 +90,7 @@ text-decoration: none;
 color: var(--darkprimary);
 transition: 0.2s;
 font-size: x-large;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li.active a, .navigation a:hover {background-color: var(--gray);
@@ -153,7 +154,7 @@ main section p a:hover {color: var(--gray);}
 *************/
 
 footer {
-  text-align: center;
+  text-align: justify left;
   padding: 1em;
   background-color: var(--secondary);
   color: var(--darkprimary);
