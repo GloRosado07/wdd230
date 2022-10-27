@@ -290,3 +290,41 @@ h2 {
   font-family: var(--mainfont);
   
 }
+
+
+/*******
+Discover
+*******/
+.discover {
+  display: grid;
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-columns: minmax(min-content, max-content);
+  max-width: 500px;
+  text-align: center;
+  justify-items: center;
+  font-family: var(--mainfont);
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  padding: 1em;
+  margin: 1em auto;
+  background-color: var(--gray);
+}
+
+.card p {
+  margin-top: 5%;
+  padding: 0 1em;
+}
+
+.discover img[data-src] {
+  filter: blur(0.2em);
+}
+
+.discover-title {
+  color: var(--darkprimary);
+  font-size: 30px;
+  font-family: var(--mainfont);
+}
+
