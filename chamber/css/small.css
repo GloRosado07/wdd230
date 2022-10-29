@@ -157,7 +157,7 @@ main section p a:hover {color: var(--gray);}
 *************/
 
 footer {
-  text-align: justify left;
+  text-align: justify;
   padding: 1em;
   background-color: var(--secondary);
   color: var(--darkprimary);
@@ -239,7 +239,7 @@ footer h3 {
 
 .hero {
   display: grid;
-  grid: 1fr;
+  grid-column: 1fr;
   min-width: 100px;
   margin: 0px;
   padding: 2rem;
