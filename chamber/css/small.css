@@ -239,7 +239,6 @@ footer h3 {
 
 .hero {
   display: grid;
-  grid-column: 1fr;
   min-width: 100px;
   margin: 0px;
   padding: 2rem;
