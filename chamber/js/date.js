@@ -1,5 +1,7 @@
 const d = new Date();
 const year = d.getFullYear();
+const currentDay = d.getDay();
+
 
 document.querySelector("#currentyear").textContent = year;
 document.querySelector("#pagelastupdated").innerHTML = `Last update: ${document.lastModified}`;
@@ -14,7 +16,9 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-if(d.getDay() === 2 || d.getDay() === 1) {
-	const banner = document.querySelector("#banner");
-	banner.style.display = "block";
-}
+//remove  the banner if not Mon or Tues
+if (currentDay >= 1 && currentDay <= 2) {
+
+    document.querySelector(".banner").style.display = "block";
+
+} else document.querySelector(".banner").style.display = "none";

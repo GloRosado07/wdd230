@@ -27,14 +27,13 @@ body {
 *************/
 header {
   display: grid;
-  grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
   align-items: center;
   justify-items: center;
   font-size: .7em;
   background-color: var(--secondary);
   color: var(--darkprimary);
   padding: .6em;
-  grid-column-gap: .8rem;
+  grid-column-gap: .5rem;
 }
 
 .logo {width: 10px;}
@@ -104,15 +103,9 @@ nav ul li.active a, .navigation a:hover {background-color: var(--gray);
 }
 .toggle-btn {padding: 1em;}
 
-.social {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .responsive li {display: block;
    
 }
-
 
 ul.responsive {
   z-index: 1;
@@ -218,7 +211,6 @@ footer h3 {
   padding-right: .5em;
 }
 
-
 .spotlight img {
   width: 150px;
   min-height: 100px;
@@ -255,7 +247,6 @@ footer h3 {
 .hero-photo img {
   width: 100%;
   height: 100%;
-  
 }
 
 h2 {
@@ -291,7 +282,6 @@ h2 {
   
 }
 
-
 /*******
 Discover
 *******/
@@ -326,5 +316,134 @@ Discover
   color: var(--darkprimary);
   font-size: 30px;
   font-family: var(--mainfont);
+}
+
+/*****
+Join
+******/
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  padding: .5rem 2%;
+  display: grid;
+}
+
+form legend {
+  color: var(--darkprimary);
+  margin: 0.1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: var(--darkprimary);
+  font-size: 1rem;
+}
+
+form label.top input, form textarea.top {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px var(--darkprimary);
+  border-radius: 4px;
+  padding: .75rem;
+  color: var(--darksecondary);
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(232, 232, 232);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: var(--darkprimary);
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: rgb(19, 48, 19);
+  color: whitesmoke;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 100%;
+  max-width: 20rem;
+  font-size: 25px;
+}
+
+form label.top input:required {
+  border-left: var(--secondary) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: var(--gray) solid 6px;
+
+}
+
+.join-title {
+  text-align: center;
+  font-family: var(--mainfont);
+  color: var(--darkprimary);
+}
+
+.membership {
+  justify-self: center;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  max-width: 100%;
+  margin: 60px 20px ;
+  padding: 20px;
+}
+
+main section.membership {
+  background-color: var(--primary);
+}
+
+.membership1 {
+  background-color: var(--secondary);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: var(--darkprimary);
+  border-radius: 1rem;
+}
+
+.membership2 {
+  background-color: orange;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: var(--darkprimary);
+  border-radius: 1rem;
+}
+
+.membership3 {
+  background-color: rgb(188, 206, 206);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: var(--darkprimary);
+  border-radius: 1rem;
+}
+
+.membership4 {
+  background-color: yellow;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: var(--darkprimary);
+  border-radius: 1rem;
+}
+
+.fillout-form {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*******Thank You**********/
+.thanks {
+  text-align: center;
+  border-radius: 5px;
+  border: solid 3px var(--darksecondary);
+  padding: 2rem;
+  color: #113103 ;
+  font-size: 25px;
 }
 

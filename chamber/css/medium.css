@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 60em) {
   header {font-size: .7em;}
 
   .logo {width: 75px;}
@@ -90,13 +90,6 @@
       grid-auto-rows: minmax(min-content, max-content);
   }
  
-
-  .join p {
-      padding: 0 1em 0 .5em;
-      font-weight: normal;
-  }
-
-
   .weather h4 {
       font-size: large;
   }
@@ -155,11 +148,6 @@
 
   .contact {align-self: center;}
 
-  .discover-main {
-      display: grid;
-      grid-template-rows: minmax(min-content, max-content);
-      grid-template-columns: minmax(min-content, max-content);
-  }
 
   .card img {
       transition: transform 0.2s ease-in-out;
@@ -170,16 +158,10 @@
       transition: transform 0.2s ease-in-out;
   }
 
-  .join-main {
-      grid-template-columns: 1fr;
-      justify-items: center;
-  }
-
 
   .list-view section {
       grid-template-columns: repeat(4, 1fr);
   }
-
 
   .contact-main form {
       grid-column: 1/3;
@@ -191,5 +173,13 @@
       margin-top: 0;
       justify-self: left;
   }
+
+  /*Join*/
+  .fillout-form {
+    grid-template-columns: 1fr 1fr;
+    gap:0;
+  }
+
+  
 
 }

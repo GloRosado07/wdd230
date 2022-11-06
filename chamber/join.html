@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gloria Rosado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guapiles Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="The page ot the Guapiles Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet"> 
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="Guapiles Chamber of Commerce logo" class="logo">
+        <h1> Guapiles <span class="extra"><br> Chamber of Commerce </span></h1>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="index.html"> Home </a></li>
+                <li><a href="discover.html"> Discover </a></li>
+                <li><a href="directory.html"> Directory </a></li>
+                <li><a href="join.html"> Join </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            <em>Friday, October 7 2022</em>
+        </div>
+
+        <div class="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
+    </header>
+    <h1 class="join-title">Welcome to our Guapiles Chamber of Commerce!</h1> <hr>
+    <main class="fillout-form">
+        <section class="membership">
+            <div class="membership1">
+                <div class="membership-title">
+                    <h1 class="title1">
+                        Non Profit Organizations
+                    </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price1">Free</h1>  
+                </div>
+                <p class="membership-details">
+                <p class="detail1">*Business listed on the Directory page.
+                <p class="detail1">*2 times a month on the spotlight.</p>
+            </div>
+            
+            <div class="membership2">
+                <div class="membership-title">
+                    <h1 class="title2"> Bronze Membership </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price2">$50</h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail2">*3 times a month on the spotlight.</p>
+                <p class="detail2">*Business listed on Directory page.</p>
+            </div>
+    
+            <div class="membership3">
+                <div class="membership-title">
+                    <h1 class="title3"> Silver Membership </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price2">$75</h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail2">*4 times a month on the spotlight.</p>
+                <p class="detail2">*Receive spotlights and chamber's events before getting posted.</p>
+            </div>
+    
+            <div class="membership4">
+                <div class="membership-title">
+                    <h1 class="title2"> Gold Membership </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price2">*100</h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail2">*4 times a month on the spotlight.</p>
+                <p class="detail2">*Formal diners, special events.</p>
+            </div>
+        </section>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Join our chamber</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Business Title<input type="text" name="businesstitle" pattern="[A-Za-z0-7+"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Business Name*<input type="text" name="businessname" required></label>
+
+                <div> Memberships </div>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit">NP</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
+                <label class="top">Business Description</label>
+                <textarea name="description" class="top" cols="30" rows="10"></textarea>
+                <input type="hidden" id="date" name="date" value="">
+
+                <input type="submit" value="Join chamber" class="submitBtn">
+            </fieldset>
+        </form>
+       
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="company">
+                <img src="images/logo.png" alt="Guapiles logo" class="logo">
+                <h3> Guapiles Chamber of Commerce </h3>
+                <p> Centro de Convenciones Pococi</p>
+            </section>
+            <div class="contact">
+                <p class="contact-info"> guapileschamber@gmail.com </p>
+                <p class="contact-info"> (506) 210-5608</p>
+            </div>
+        </div>
+        <hr>
+        <div class="wdd-info">&copy;<span id="currentyear"></span> | Gloria Rosado | Costa Rica | WDD230 </div>
+        <span id="pagelastupdated"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/ham.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>
