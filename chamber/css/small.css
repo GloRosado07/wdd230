@@ -41,7 +41,6 @@ header {
 h1 {
   padding-left: 5px;
   justify-self: start;
-  
 }
 
 button {
@@ -435,6 +434,10 @@ main section.membership {
 
 .fillout-form {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.price {
+  font-size: 35px;
 }
 
 /*******Thank You**********/
