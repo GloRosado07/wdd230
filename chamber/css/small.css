@@ -277,34 +277,28 @@ h2 {
 
 .weather, p {
   color: var(--darkprimary);
-  font-family: var(--mainfont);
-  
+  font-family: var(--mainfont);  
 }
 
 /*******
 Discover
 *******/
-.discover {
-  display: grid;
-  grid-template-rows: minmax(min-content, max-content);
-  grid-template-columns: minmax(min-content, max-content);
-  max-width: 500px;
+main section {
   text-align: center;
-  justify-items: center;
-  font-family: var(--mainfont);
-}
-
-.card {
-  display: grid;
-  justify-items: center;
-  padding: 1em;
-  margin: 1em auto;
   background-color: var(--gray);
+  margin: 10px;
 }
 
-.card p {
-  margin-top: 5%;
-  padding: 0 1em;
+.card-content {
+  justify-content: center;
+  padding: 3rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-discover {
+  float: left;
+  margin-right: 35px;
 }
 
 .discover img[data-src] {
@@ -315,6 +309,10 @@ Discover
   color: var(--darkprimary);
   font-size: 30px;
   font-family: var(--mainfont);
+}
+
+discover-main, p {
+  text-align: center;
 }
 
 /*****
