@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(143, 161, 162);
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #132A13;
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+    margin: 1em;
+    padding: 1.5em;
+    background-color: #90A955;
+    color: #132A13;
+    box-shadow: 10px 5px 5px gray;
+    
+}
+
+.cars section img {
+    max-width: 60%;
+}
+
+.cards section h2 {
+    margin-bottom: 0;
+    background-color: #ECF39E;
+    color: #132A13;
+    padding: .5em;
+    border-radius: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #132A13;
+    font-size: 25px;
+}
+
+@media(min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+@media(min-width: 920px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 8px;
+        grid-row-gap: 13px;
+    }
+    .cards section {
+        padding: 2rem;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .cards section img {
+        max-width: 200px;
+
+    }
+}
+}
