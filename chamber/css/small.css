@@ -459,7 +459,7 @@ main section.membership {
 
 .directory {
   text-align: center;
-  border: 8px var(--darksecondary) dashed;
+  border: 8px var(--darksecondary) groove;
 }
 
 .list-view img, .card-view>section h3 {display: none;}
