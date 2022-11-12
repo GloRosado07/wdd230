@@ -485,7 +485,7 @@ main section.membership {
 
 .list-view section p, .card-view section p {
   font-size: 20px;
-  color:#113103;
+  color:var(--darkprimary);
   text-align: center;
 }
 
