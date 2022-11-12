@@ -178,7 +178,30 @@
 	}
 
 	/*****Discover****/
-	
+	.card-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+	.image-discover {
+		width: 50%;
+	  }
+
+	.contact-main form {
+		grid-column: 1/2;
+		justify-self: right;
+	}
+
+	.google-map {
+		grid-column: 3/4;
+		margin-top: 2rem;
+		margin-left: 10px;
+	}
+
+	.information {
+		grid-column: 2/3;
+		grid-row: 1/2;
+		margin-top: 2rem;
+	}
 
 
 	/***Join***/

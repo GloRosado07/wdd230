@@ -180,6 +180,27 @@
     gap:0;
   }
 
+  /*Discover*/
+  .list-view section {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-view {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-main form {
+    grid-column: 1/3;
+}
+
+.contact-main form fieldset, .contact-main form .submitBtn {
+    max-width: 25rem;
+}
+
+.contact-main .submitBtn {
+    margin-left: .5rem;
+}
+
   
 
 }

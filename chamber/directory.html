@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gloria Rosado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guapiles Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="The page ot the Guapiles Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet"> 
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="Guapiles Chamber of Commerce logo" class="logo">
+        <h1> Guapiles <span class="extra"><br> Chamber of Commerce </span></h1>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="index.html"> Home </a></li>
+                <li><a href="discover.html"> Discover </a></li>
+                <li><a href="directory.html"> Directory </a></li>
+                <li><a href="join.html"> Join </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            <em>Friday, October 7 2022</em>
+        </div>
+
+        <div class="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
+    </header>
+        <h1>Business Directory</h1>
+    <main>
+        <div class="directory">
+            <div class="list-view-btn">
+                <button id="list-btn"><img src="images/list-view.png" alt="list view button" width="50"></button>
+                <button id="card-btn"><img src="images/card-view.png" alt="list view button" width="50"></button>
+            </div>
+            <div class="cards list-view">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="company">
+                <img src="images/logo.png" alt="Guapiles logo" class="logo">
+                <h3> Guapiles Chamber of Commerce </h3>
+                <p> Centro de Convenciones Pococi</p>
+            </section>
+            <div class="contact">
+                <p class="contact-info"> guapileschamber@gmail.com </p>
+                <p class="contact-info"> (506) 210-5608</p>
+            </div>
+        </div>
+        <hr>
+        <div class="wdd-info">&copy;<span id="currentyear"></span> | Gloria Rosado | Costa Rica | WDD230 </div>
+        <span id="pagelastupdated"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/ham.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>
