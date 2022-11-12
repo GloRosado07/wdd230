@@ -3,64 +3,64 @@
 [
     {
         "name": "Omega",
-        "address": "300m Oeste del Hospital de Guapiles",
-        "phone": "4564-5372",
+        "address": "Location: Guapiles",
+        "phone": "Tel. 4564-5372",
         "website": "https://es-la.facebook.com/OmegaEspecialidadesDentales/",
         "imgfile": "images/omega.png",
         "membership": "Bronze"
     },
     {
         "name": "Earth University",
-        "address": "Mercedes de Guacimo, Guacimo",
-        "phone": "5679-2482",
+        "address": "Location: Guacimo",
+        "phone": "Tel. 5679-2482",
         "website": "https://www.earth.ac.cr/en/about-earth/",
         "imgfile": "images/earth.png",
         "membership": "Non-profit"
     },
     {
         "name": "Chito y Pocho Restaurant",
-        "address": "Siquirres Limon",
-        "phone": "8907-2344",
+        "address": "Location: Siquirres",
+        "phone": "Tel. 8907-2344",
         "website": "https://www.facebook.com/people/Chito-y-pocho/100063689205479/",
         "imgfile": "images/chito-pocho.png",
         "membership": "Silver"
     },
     {
         "name": "Sloth Sanctuary",
-        "address": "Cahuita Limon",
-        "phone": "2345-9876",
+        "address": "Location: Cahuita",
+        "phone": "Tel. 2345-9876",
         "website": "https://www.slothsanctuary.com/",
         "imgfile": "images/sloth.png",
         "membership": "Gold"
     },
     {
         "name": "Finca Organica Los Tucanes",
-        "address": "Guacimo Limon",
-        "phone": "9875-2347",
+        "address": "Location: Guacimo",
+        "phone": "Tel. 9875-2347",
         "website": "https://www.facebook.com/Fincaecoturisticalostucanes",
         "imgfile": "images/finca.png",
         "membership": "Silver"
     },
     {
-        "name": "Cruz Roja Costarricense",
-        "address": "Guapiles Limon",
-        "phone": "2710 2104",
-        "website": "https://cruzroja.or.cr/",
-        "imgfile": "images/earth.png",
+        "name": "Repuestos Gigante",
+        "address": "Location: Guapiles",
+        "phone": "Tel. 2710 2104",
+        "website": "https://www.repuestosgigante.com/",
+        "imgfile": "images/gigante.png",
         "membership": "Non-profit"
     },
     {
         "name": "Blue Day Family Club",
-        "address": "Guapiles Limon",
-        "phone": "3455-8978",
+        "address": "Location: Guapiles",
+        "phone": "Tel. 3455-8978",
         "website": "https://bluedayfamilyclub.com/",
         "imgfile": "images/family-club.png",
         "membership": "Silver"
     },
     {
         "name": "La Comarca Gastro Park",
-        "address": "Guapiles",
-        "phone": "8907-2411",
+        "address": "Location: Guapiles",
+        "phone": "Tel. 8907-2411",
         "website": "https://www.facebook.com/lacomarcagastropark/",
         "imgfile": "images/comarca.png",
         "membership": "Bronze"

@@ -203,12 +203,16 @@
 		margin-top: 2rem;
 	}
 
-
 	/***Join***/
 	
 	.fillout-form {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	  }
+
+	/***Directory***/
+	.card-view {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
