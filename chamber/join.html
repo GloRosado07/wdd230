@@ -97,21 +97,25 @@
         </section>
         <form method="get" action="thankyou.html">
             <fieldset>
-                <legend>Join our chamber</legend>
+                <h3 class="join-us">Join Our Chamber</h3>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Business Title<input type="text" name="businesstitle" pattern="[A-Za-z0-7+"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+                
+            <fieldset>
                 <label class="top">Business Name*<input type="text" name="businessname" required></label>
+                <label class="top">Business Title<input type="text" name="businesstitle" pattern="[A-Za-z0-7+"></label>
+                <label class="top">Business Description <br><textarea cols="38" rows="10" name="bus-description"></textarea></label>
+            </fieldset> 
 
                 <div> Memberships </div>
                 <label class="sbs"><input type="radio" name="membership" value="nonprofit">NP</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
-                <label class="top">Business Description <br><textarea cols="38" rows="10" name="bus-description"></textarea></label>
-                
+
                 <input type="hidden" id="date" name="date" value="">
 
                 <input type="submit" value="Join chamber" class="submitBtn">

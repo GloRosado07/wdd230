@@ -45,12 +45,9 @@
 		position: relative;
 		color: var(--darksecondary);
 		background-color: var(--secondary);
-		width: fit-content;
-		height: fit-content;
 		margin: 0 0 0.5rem;
-		position: absolute;
-		top: 15px;
-		right: 30px;
+		top: 45px;
+		left: 40px;
 		background: radial-gradient(rgb(252, 252, 252), #F4B552);
 		border: 1px solid rgba(0,0,0,.1);
 		padding: 1.5rem;
