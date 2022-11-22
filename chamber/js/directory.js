@@ -39,7 +39,7 @@ function displayBusinesses(business) {
 
   //p website
   let p3 = document.createElement('p');
-  p3.textContent = business.website;
+  p3.innerHTML = business.website;
   card.appendChild(p3);
 
   cards.appendChild(card);

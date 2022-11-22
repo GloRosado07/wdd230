@@ -493,6 +493,7 @@ main section.membership {
   font-size: 20px;
   color:var(--darkprimary);
   text-align: center;
+  padding: .25em;
 }
 
 .card-view {
