@@ -1,14 +1,15 @@
-const requestURL = "data.json"
+const requestJSON = "json/data.json"
 const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-btn");
 const cardButton = document.querySelector("#card-btn");
 
 
-fetch(requestURL)
+fetch(requestJSON)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
+      console.table(jsonObject);
         const businesses = jsonObject['businesses'];
         businesses.forEach(displayBusinesses);
     });
@@ -39,11 +40,10 @@ function displayBusinesses(business) {
 
   //p website
   let p3 = document.createElement('p');
-  p3.innerHTML = business.website;
+  p3.innerHTML = `<a href="${business.website}" target="blank">${business.website}</a>`;
   card.appendChild(p3);
-
-  cards.appendChild(card);
-
+  
+    cards.appendChild(card);
 }
 
 listButton.addEventListener("click", ()=> {
