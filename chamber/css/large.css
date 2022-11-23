@@ -184,18 +184,13 @@
 	  }
 
 	.contact-main form {
-		grid-column: 1/2;
-		justify-self: right;
-	}
-
-	.google-map {
-		grid-column: 3/4;
-		margin-top: 2rem;
-		margin-left: 10px;
+		grid-column: auto;
+		justify-self: left;
+		margin: 10px;
 	}
 
 	.information {
-		grid-column: 2/3;
+		grid-column: 3/3;
 		grid-row: 1/2;
 		margin-top: 2rem;
 	}
@@ -211,5 +206,12 @@
 	.card-view {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	/***Contact Us***/
+	main.contact-details {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
+
 

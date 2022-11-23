@@ -365,9 +365,9 @@ form input.submitBtn {
   color: whitesmoke;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  margin: 0 0 2rem 2%;
+  margin: 0 0 2rem 15%;
   width: 100%;
-  max-width: 20rem;
+  max-width: 18rem;
   font-size: 25px;
 }
 
@@ -516,38 +516,35 @@ main section.membership {
   background-color: var(--secondary);
 }
 
-.contact-main {
-  display:grid;
-  justify-items: center;
+/****Contact*****/
+.contact-us {
+  text-align: center;
+  color: var(--darkprimary);
+  font-size: 45px;
 }
 
-.contact-main .submitBtn {
-  margin-left: 2.2rem;
+main.contact-details {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-.information {
-  margin-bottom: 1rem;
+section.contact-info {
+  margin: auto 10px;
+  border: solid var(--darksecondary);
 }
 
-.visit-us {
-  background-color: #355B8C;
-  color: white;
-  margin-top: .5rem;
-  padding: .5rem 1rem;
-  border-radius: 5px;
-  max-height: 300px;
+.visit {
+  font-size: 30px;
+  margin: auto;
+  color:var(--darkprimary);
 }
 
-.visit-us h3, .contact-point h3 {
-  font-size: x-large;
-
+.visit-info {
+  font-size: 20px;
+  color: var(--darkprimary);
 }
 
-.contact-point {
-  background-color: #011640;
-  color: white;
-  margin-top: .5rem;
-  padding: .5rem 1rem;
-  border-radius: 5px;
-  max-height: 300px;
-}
+
+
+
+

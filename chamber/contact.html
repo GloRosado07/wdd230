@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gloria Rosado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guapiles Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="The page ot the Guapiles Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet"> 
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" alt="Guapiles Chamber of Commerce logo" class="logo">
+        <h1> Guapiles <span class="extra"><br> Chamber of Commerce </span></h1>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="index.html"> Home </a></li>
+                <li><a href="discover.html"> Discover </a></li>
+                <li><a href="directory.html"> Directory </a></li>
+                <li><a href="join.html"> Join </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date">
+            <em>Friday, October 7 2022</em>
+        </div>
+
+        <div class="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</div>
+    </header>
+    <h1 class="contact-us">Contact Us</h1>
+    <main class="contact-details">
+        <form>
+            <fieldset>
+                <legend>Get in Touch</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Questions or Comments<br><textarea cols="35" rows="10" name="questions-comments"></textarea></label>
+                <input type="submit" value="Contact Us" class="submitBtn">
+            </fieldset>    
+        </form>
+
+        <section class="contact-info">
+            <div>
+                <h3 class="visit">Visit Us</h3>
+                <p class="visit-info">Guapiles Chamber of Commerce<br>Centro Civico de Pococi</p>
+                <p class="visit-info">Guapiles, Limon Costa Rica<br>Phone 2710-4576</p>
+            </div>
+            <div>
+                <h3 class="visit">Point of Contact</h3>
+                <p class="visit-info">Gloria Rosado</p>
+                <p class="visit-info">Phone 8345-2358<br>GuapilesChamber@pococi.org</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="company">
+                <img src="images/logo.png" alt="Guapiles logo" class="logo">
+                <h3> Guapiles Chamber of Commerce </h3>
+                <p> Centro de Convenciones Pococi</p>
+            </section>
+            <div class="contact">
+                <p class="contact-info"> guapileschamber@gmail.com </p>
+                <p class="contact-info"> (506) 210-5608</p>
+            </div>
+        </div>
+        <hr>
+        <div class="wdd-info">&copy;<span id="currentyear"></span> | Gloria Rosado | Costa Rica | WDD230 </div>
+        <span id="pagelastupdated"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/ham.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>
