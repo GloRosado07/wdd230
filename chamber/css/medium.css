@@ -124,6 +124,7 @@
       display: grid;
       grid: 1fr 1fr / 1fr 2fr;
       text-align: left;
+      justify-items: start;
   }
 
   .company p {

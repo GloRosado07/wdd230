@@ -54,6 +54,24 @@ button:hover {
   cursor: pointer;
 } 
 
+.hero .button-link {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: right;
+  align-self: end;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.button-link {
+  padding: .3rem .3rem;
+  border-radius: 1rem;
+  font-size: 1.5em;
+  color: #221110;
+  background-color: var(--secondary);
+  text-decoration: none;
+}
+
 .extra {display: initial;
   text-align: justify;}
 
@@ -131,8 +149,8 @@ h2 {
   color: var(--darksecondary);
   background-color: var(--secondary);
   width: 118px;
-  height: 12% ;
-  margin: 0 0 0.5rem;
+  height: 10% ;
+  margin: 0 16px 0.5rem;
 	top: 25px;
 	left: 30px;
 	background: radial-gradient(rgb(252, 252, 252), #F4B552);
@@ -446,7 +464,6 @@ main section.membership {
   font-size: 25px;
 }
 
-
 /*******Thank You**********/
 .thanks {
   text-align: center;
@@ -455,67 +472,6 @@ main section.membership {
   padding: 2rem;
   color: #113103 ;
   font-size: 25px;
-}
-
-/**********************
-    Directory Page
-**********************/
-.business {
-  text-align: center;
-  color:var(--darkprimary);
-}
-
-.directory {
-  text-align: center;
-  border: 8px var(--darksecondary) groove;
-}
-
-.list-view img, .card-view>section h3 {display: none;}
-
-.card-view img{
-  display: block;
-  padding: 15px;
-  width: 50%;
-  margin: 0 auto;
-  min-height: 200px;
-}
-
-.list-view>section h3 {display: block;
-  text-align: center;
-  font-size: 25px;}
-
-.list-view section {
-  grid-template-columns: 1fr;
-  padding: .5em;
-  color: #113103;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.list-view section p, .card-view section p {
-  font-size: 20px;
-  color:var(--darkprimary);
-  text-align: center;
-  padding: .25em;
-}
-
-.card-view {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.list-view-btn {
-  padding: .5em;
-}
-
-.list-view-btn button {
-  padding:.2rem;
-  background-color: var(--secondary);
-  border-radius: 5px;
-  margin: .3em;
-}
-
-.list-view section:nth-child(2n) {
-  background-color: var(--secondary);
 }
 
 /****Contact*****/
@@ -528,6 +484,8 @@ main section.membership {
 main.contact-details {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
+  font-size: 17px;
 }
 
 section.contact-info {
@@ -546,7 +504,26 @@ section.contact-info {
   color: var(--darkprimary);
 }
 
+section lu p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--darkprimary);
+  text-align: center;
+}
 
+section li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  list-style-type: none;
+}
 
+section h3.general-query {
+  font-size: 30px;
+  color: var(--darkprimary);
+}
+
+section p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
 
 

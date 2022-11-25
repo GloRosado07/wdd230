@@ -10,6 +10,12 @@
 		grid-row: 1/2;
 	}
 
+	.hero button {
+		margin-bottom: 1em;
+		margin-right: 1em;
+	}
+
+
 	.banner {
 		grid-row: 3/3;
 		grid-column: 1/5;
