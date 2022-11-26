@@ -588,3 +588,8 @@ section p {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
+
+section p.subtitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
