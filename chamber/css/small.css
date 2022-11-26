@@ -297,7 +297,7 @@ Discover
 *******/
 main section {
   text-align: center;
-  background-color: rgb(81, 116, 84);
+  background-color: var(--gray);
   margin: 10px;
 }
 
