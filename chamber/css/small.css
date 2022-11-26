@@ -587,6 +587,10 @@ section h3.general-query {
 section p {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  font-size: 15px;
 }
 
-
+h4 {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
