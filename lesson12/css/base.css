@@ -193,6 +193,7 @@ nav {
 	text-align: left;
 	color: var(--orange);
 	font-weight: 800;
+    font-size: 25px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

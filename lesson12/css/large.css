@@ -55,12 +55,12 @@ section.about  {
 .weather {
     position: absolute;
     font-size: 0.5rem;
-    top: 18rem;
-    left: 5rem;
+    top: 20rem;
+    left: 2em;
     border: 1px solid var(--primary);
     box-shadow: 0 0 30px #333;
     opacity: 0.8;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
 }
 

@@ -1,5 +1,5 @@
 //current weather data
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=3530103&units=imperial&appid=e1c9515f8287f6f2048c068c780f63aa';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=33.1581&lon=-117.3506&appid=e1c9515f8287f6f2048c068c780f63aa&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
