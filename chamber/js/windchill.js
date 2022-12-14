@@ -1,6 +1,6 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Guapiles&units=imperial&appid=e1c9515f8287f6f2048c068c780f63aa'
+const requestURL = 'https://api.openweathermap.org/data/2.5/weather?q=Guapiles&units=imperial&appid=e1c9515f8287f6f2048c068c780f63aa'
 
-fetch(apiURL)
+fetch(requestURL)
   .then((response) => response.json())
   .then((jsObject) => {
     const t = jsObject.main.temp.toFixed(1);

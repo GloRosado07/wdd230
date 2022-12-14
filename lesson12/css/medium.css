@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {
+/**Fresh**/
+.order {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fresh-title {
+    text-align: center;
+    font-family: var(--fuenteHeading);
+}
+
+form fieldset {
+    margin: 10rem;
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    padding: 3rem;
+    display: grid;
+}
+
+
+}

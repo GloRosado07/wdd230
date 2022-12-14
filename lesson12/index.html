@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="last project presentation wdd230">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Jugos La Cosecha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css"> 
+    <link rel="stylesheet" href="css/medium.css"> 
+    <link rel="stylesheet" href="css/large.css">    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Jugos<span class="logo__bold">La Cosecha</span></h1>
+                </a>
+                <button class="ham"></button>
+                <nav>        
+                    <ul class="menu">
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    </ul>                             
+                </nav>
+            </div>
+
+            <div class="social">
+                <a href="https://facebook.com" target="_blank"><img loading="lazy" src="img/facebook.png"  alt="Facebook logo" class="icon"></a>
+                <a href="https://linkedin.com" target="_blank"><img loading="lazy" src="img/instagram.png"  alt="Instagram logo" class="icon"></a>
+                <a href="https://linkedin.com" target="_blank"><img loading="lazy" src="img/twitter.png" alt="Twitter logo" class="icon"></a>
+            </div>
+
+        </div>
+        <div class="header-text">
+            <h2>The Best Tropical Fruits</h2>        
+        </div>
+        
+    </section>
+    <section class="weather">
+        <h3>WEATHER</h3>
+        <div>
+            <img src="img/icon-weather.png" alt="Icon of the current weather" id="iconWeather" width="75" width="75">
+            <div>
+              <p class="weather__info">Temperature: <span id="temp"></span>°F</p>
+              <p class="weather__info">Description: <span id="curr"></span></p>
+              <p class="weather__info">Humidity: <span id="hum"></span>%</p>
+            </div>
+    </section>
+
+    </header>
+    <div class="container main-content">
+        <main class="title">
+            <h3 class="title-product">Our Products</h3>
+            <article class="entry">
+                <div class="entry__image">
+                    <img loading="lazy" src="img/fruits.png">
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">San Diego Fresh Fruits</h4>
+                    <p>Visitors to San Diego can drop by any of the region's many farms, located mostly in inland north county, 
+                    to purchase produce directly from the grower at roadside farm stands. Following are a few of the favorites among
+                    local chefs - both amateur and professional:<br>
+                    North inland San Diego, you’ll find Farm Stand West and Fran’s Original Farm Stand. Both are owned and operated by
+                    the Hillebrecht family since the 60’s and offer a wide variety of fruits and vegetables grown on the family farm. 
+                    Open year-round, they feature seasonal selections such as avocados, apricots, citrus, sweet peas, and local raw honey and nuts.</p>
+                    <a href="entry.html" class="button primary--button">Read Entry</a> 
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <img loading="lazy" src="img/peaches-juice.jpg">
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">Shakes</h4>
+                    <p>The sweet scent of peaches mixes with the bitter aroma of 
+                    <br>freshly brewed coffee as the melodies of local musicians
+                    <br>fill the air with energy. Piles of persimmons line up next to
+                    <br>bunches of radishes as luscious bouquets of lavender sway in the breeze.
+                    <br>This calming scenery is common at California’s farmers markets, where
+                    <br>you can sample local honey, pick up a bottle of Golden State olive oil,
+                    <br>and grab street tacos to satiate your meal-planning hunger. While at the market,
+                    <br>you may also meet some of the farmers and find new inspiration for storing the week’s
+                    <br>produce or learn some new tips for improving your own garden. </p>
+                    <a href="entry.html" class="button primary--button">Read Entry</a> 
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <img loading="lazy" src="img/protein-juice.jpg">
+                </div>
+                <div class="entry__content">
+                    <h4 class="no-margin">Protein Shakes</h4>
+                    <p>Protein plays an important role in repairing and rebuilding your muscles after exercise,
+                     and many people use protein shakes after their workouts to aid this process. However, 
+                     research suggests it doesn't matter whether you drink a protein shake before or after your workout. </p>
+                    <a href="entry.html" class="button primary--button">Read Entry</a> 
+                </div>
+            </article>
+        </main>
+            <aside>
+            <section class="forecast">
+                <h3 class="forecast">Next 3 Day Forecast</h3>
+                <hr>
+                <table>
+                    <tr>
+                      <th><span id="nameDay1"></span></th>
+                      <th><span id="nameDay2"></span></th>
+                      <th><span id="nameDay3"></span></th>
+                    </tr>
+                    <tr>
+                      <td><img src=" " alt="image forecast" id="imgForecast2"></td>
+                      <td><img src=" " alt="image forecast" id="imgForecast10"></td>
+                      <td><img src=" " alt="image forecast" id="imgForecast18"></td>
+                    </tr>
+                    <tr>
+                      <td><span id="tempForecast2"></span>°F</td>
+                      <td><span id="tempForecast10"></span>°F</td>
+                      <td><span id="tempForecast18"></span>°F</td>
+                    </tr>
+                  </table>
+            </section>
+                <ul>
+                    <li>
+                        <h4>Create Your Own Flavor</h4>
+                        <hr>
+                        <p>Need nutrition facts about your drink?<br>
+                            We have it all for your information.
+        
+                        </p>
+                        <p>Select from our favorites or make your own
+                        <p class="lets-order">Let's prepare yours!</p>
+                        </p>
+                        <a href="fresh.html" class="button primary--button">Order Here</a>
+                    </li>
+                </ul> 
+            </aside>
+    </div>    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Jugos<span class="logo__bold">La Cosecha</span></h1>
+                    <p>3769 47TH ST<br> SAN DIEGO CA 92105</p>
+                </a>
+
+            </div>
+            <div class="wdd-info">&copy;<span id="currentyear"></span> | Gloria Rosado | Costa Rica | WDD230 </div>
+            <span id="pagelastupdated"></span>
+        </div>
+    </footer>
+    <script src="js/weather.js"></script>
+    <script src="js/dates.js"></script>
+    <script src="js/ham.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+@media only screen and (min-width: 37em) {
+
+    /**Fresh**/
+.order {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fresh-title {
+    text-align: center;
+    font-family: var(--fuenteHeading);
+}
+
+form fieldset {
+    margin: 10rem;
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    padding: 3rem;
+    display: grid;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.social {
+    float: right;
+    margin: -136px 3px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+form fieldset {
+    margin: 10rem; }
+    
+
+section.about  {
+    margin: 50px 40px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather {
+    position: absolute;
+    font-size: 0.5rem;
+    top: 18rem;
+    left: 5rem;
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 30px #333;
+    opacity: 0.8;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
+
+
+
+.slogan {
+    text-align: center;
+    padding-top: 20rem;
+    color: var(--primary);
+    font-family: var(--fontParagraph);
+    font-size: 3rem;
+}
+
+.menu a {
+	display: block;
+	padding: .5rem;
+	text-align: center;
+	color: var(--orange);
+	font-weight: 800;
+	font-family: var(--fontParagraph);
+}
+
+}
