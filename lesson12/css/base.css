@@ -1,7 +1,4 @@
 :root {
-    --fontHeading: 'PT Sans', sans-serif;
-    --fontParagraph: 'Open Sans', sans-serif;
-
     --primary: #003049;
     --red: #d62828;
     --orange: #f77f00;
@@ -19,7 +16,7 @@ html {
 }
 
 body {
-    font-family: var(fontParagraph);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -112,7 +109,7 @@ ul {
 
 div.header-text {
     text-align: center;
-    font-family: var(--fontParagraph);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #0c1442;
     margin: 5px 15px;
     font-size: 5rem;
@@ -132,7 +129,7 @@ div.header-text {
 .weather__info{ 
     font-size: 2rem;
     font-size: 25px;
-    color: bold;
+    font-weight: bold;
     text-shadow: 2px 2px 5px var(--orange);
     font-weight: 800;
 }
@@ -196,7 +193,7 @@ nav {
 	text-align: left;
 	color: var(--orange);
 	font-weight: 800;
-	font-family: var(--fontParagraph);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu a.ham::before {
@@ -295,7 +292,7 @@ nav {
 /****Forecast*****/
 .forecast {
     text-align: center;
-    font-family: var(--fontParagraph);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 td {
@@ -325,7 +322,7 @@ form fieldset {
 
 form legend {
     color: var(--primary);
-    font-family: var(--fontParagraph);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0.1rem;
     padding: 0.5rem;
     font-size: 1.5rem;
@@ -367,6 +364,7 @@ button {
 .title__us {
     text-align: center;
     color: var(--primary);
+    font-size: 50px;
 }
 
 
@@ -381,7 +379,7 @@ button {
 .slogan {
     text-align: center;
     color: var(--primary);
-    font-family: var(--fontParagraph);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
 }
 
