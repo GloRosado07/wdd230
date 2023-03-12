@@ -4,7 +4,8 @@
     --claro: #527f49;
     --oscuro: #083744;
     
-    --fuenteHeading: 'cabin', sans-serif;
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
 }
 
 /* Globales */
@@ -36,7 +37,8 @@ body {
 h1 {
     font-family: var(--fuenteHeading);
     color: var(--oscuro);
-    padding: .5em;
+    padding: .1em;
+    text-align: center;
 }
 
 h2 {
@@ -55,17 +57,35 @@ h3 {
     color: var(--oscuro);
 }
 
+h4{
+    font-size: 25px;
+    text-align: center;
+    font-family:var(--fuenteHeading);
+    margin: 1rem;
+}
+
+h5 {
+    font-family: var(--fuenteHeading);
+    font-size: 20px;
+    margin: auto;
+}
+
+p {
+    font-family: var(--fuenteParrafos);
+    font-size: 17px;
+}
+
 /*barra Nav*/
 .barra-navegacion {
     display: flex;
     flex-direction: column;
 }
 
-@media(min-width: 768px) {
-    .barra-navegacion {
-       flex-direction: row;
-       justify-content: space-evenly; 
-    }
+.date {
+    text-align: center;
+    font-family: var(--fuenteHeading);
+    color: var(--oscuro);
+    font: bold;
 }
 
 .barra-navegacion, a {
@@ -75,14 +95,18 @@ h3 {
     font-weight: 600;
     color: var(--oscuro);
     font-size: 23px; 
-    margin-top: 80px;    
+    margin-top: 80px;  
+    flex-direction: row;
+    justify-content: space-evenly;   
 }
 
 /*SERVICIOS*/
 .servicios li {
-    text-align: center;
-    list-style-type: none;
-    padding: 1rem;
+    text-align: justify;
+    list-style-type: circle;
+    padding: 3rem;
+    margin-left: 45rem;
+    font-size: 2.5rem;
 }
 
 img {
@@ -99,19 +123,19 @@ header {
 
 .talento {
     text-align: justify;
-    margin: 50px;
+    margin: 60px;
 }
 
 .top-logo {
     width: 190px;
     height: 200px;
-    margin-left: 30rem;
-    padding-top: 3rem;
+    margin-left: 35rem;
+    padding-top: 4rem;
 }
 
 .icon {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     margin-left: 1rem;
 }
 
@@ -126,8 +150,14 @@ header {
 .foto {
     float: left;
     margin-right: 25px;
-    width: 30rem;
-    height: 350px;
+    width: 35rem;
+    height: 44rem;
+}
+
+.subtitle{
+    font-size: 20px;
+    font: bold;
+    padding: 0%;
 }
 
 /*FOOTER*/
@@ -137,31 +167,52 @@ footer {
 }
 
 .bottom-logo {
-    width: 180px;
-    height: 200px;
+    width: 200px;
+    height: 190px;
     float: left;
-    margin-left: 175px;
+    margin-right: 20px;
     padding-top: 5rem;
+    margin-left: 180px;
 }   
 
 .contact {
     float: right;
-    margin-left: 300px;
+    margin-left: 250px;
     font-size: 17px;
 }
 
+.footer-info {
+    text-align: center;
+    font-size: 15px;
+}
+
+.abogados-titulo {
+    text-align: center;
+    padding: 2rem;
+}
+
+.address {
+    text-align: justify;
+}
 
 /*CONTACT US*/
 .contacto {
+    text-align: justify;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    margin-bottom: 15rem;    
+}
+
+.contacto__titulo {
     text-align: center;
-    padding: 0%;
+    padding: 5rem;
 }
 
 .bloques {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
+    margin: auto;
+    text-align: center;
 }
-
-
 
