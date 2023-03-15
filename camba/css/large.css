@@ -1,6 +1,193 @@
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 60em) {
+    body {
+        font-size: 20px;
+        background: white;
+        justify-content: space-evenly;
+    }
+    
+    .hero {
+        background-image: url(../images/law.png);
+        background-repeat: no-repeat center;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-family: var(--fuenteHeading);
+        color: var(--oscuro);
+        padding: .1em;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: var(--fuenteHeading);
+        font-size: 50px; 
+        color: var(--oscuro);
+        margin-left: 50px; 
+        margin-bottom: 50px;
+        padding-top: 5rem;
+    }
+    
+    h3 {
+        font-family: var(--fuenteHeading);
+        text-align: center;
+        font-size: 40px;
+        color: var(--oscuro);
+    }
+    
+    h4{
+        font-size: 25px;
+        text-align: center;
+        font-family:var(--fuenteHeading);
+        margin: 1rem;
+    }
+    
+    h5 {
+        font-family: var(--fuenteHeading);
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    p {
+        font-family: var(--fuenteParrafos);
+        font-size: 17px;
+    }
+    
+    /*barra Nav*/
     .barra-navegacion {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .barra-navegacion, a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--oscuro);
+        font-size: 23px; 
+        margin-top: 80px;  
         flex-direction: row;
-        justify-content: space-evenly; 
-     }
+        justify-content: space-evenly;   
+    }
+    
+    /*SERVICIOS*/
+    .servicios li {
+        text-align: justify;
+        list-style-type: circle;
+        padding: 3rem;
+        margin-left: 45rem;
+        font-size: 2.5rem;
+    }
+    
+    img {
+        float: center; 
+        padding: 1.5rem;
+    }
+    
+    /*HEADER*/
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+    }
+    
+    .talento {
+        text-align: justify;
+        margin: 60px;
+    }
+    
+    .top-logo {
+        width: 190px;
+        height: 200px;
+        margin-left: 35rem;
+        padding-top: 4rem;
+    }
+    
+    .icon {
+        width: 60px;
+        height: 60px;
+        margin-left: 1rem;
+    }
+    
+    /*NUESTRO TALENTO*/
+    .talento {
+        justify-content: center;
+        padding: 3rem;
+        font-size: 1.5rem;
+        font-family: var(--fuenteHeading);
+    }
+    
+    .foto {
+        float: left;
+        margin-right: 25px;
+        width: 35rem;
+        height: 44rem;
+    }
+    
+    .subtitle{
+        font-size: 20px;
+        font: bold;
+        padding: 0%;
+    }
+    
+    /*FOOTER*/
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .bottom-logo {
+        width: 200px;
+        height: 190px;
+        float: left;
+        margin-right: 20px;
+        padding-top: 5rem;
+        margin-left: 180px;
+    }   
+    
+    .contact {
+        float: right;
+        margin-left: 250px;
+        font-size: 17px;
+    }
+    
+    .footer-info {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .abogados-titulo {
+        text-align: center;
+        padding: 2rem;
+        font-size: 25px;
+    }
+    
+    .address {
+        text-align: justify;
+    }
+    
+    /*CONTACT US*/
+    .contacto {
+        text-align: justify;
+        margin-right: 7rem;
+        margin-left: 7rem;
+        margin-bottom: 15rem;    
+    }
+    
+    .contacto__titulo {
+        text-align: center;
+        padding: 5rem;
+    }
+    
+    .bloques {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
 }
