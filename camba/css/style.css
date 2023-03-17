@@ -76,23 +76,7 @@ p {
     font-size: 17px;
 }
 
-/*barra Nav*/
-.barra-navegacion {
-    display: flex;
-    flex-direction: column;
-}
 
-.barra-navegacion, a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--oscuro);
-    font-size: 15px; 
-    margin-top: 60px;  
-    flex-direction: row;
-    justify-content: space-evenly;   
-}
 
 /*SERVICIOS*/
 .servicios li {
@@ -127,6 +111,62 @@ header {
     padding-top: 1rem;
 }
 
+/*barra Nav*/
+.barra-navegacion {
+    display: flex;
+}
+
+/*HAM MENU*/
+/* Small/Phone View ***************/
+nav {
+	margin: 0 auto;
+    max-height: 750px;
+}
+.barra-navegacion {
+	list-style: none;
+    flex-direction: column;
+    margin: auto;
+}
+.barra-navegacion li:first-child {
+	display: block;
+}
+.barra-navegacion li {
+	display: none;
+}
+.barra-navegacion a {
+	display: block;
+	padding: .5rem;
+	text-align: center;
+	text-decoration: none;
+	color: var(--oscuro);
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: 1.5rem;
+    margin-top: 10px;
+
+}
+
+.barra-navegacion a.ham::before {
+	content: "";
+}
+
+.barra-navegacion a:hover {
+	color: var(--secundario);
+	background-color: var(--secundario);
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+    padding: 0.5rem;
+    margin-bottom: auto;
+}
+
+.responsive a.ham::before {
+	content: "";
+}
 
 /*NUESTRO TALENTO*/
 .talento {

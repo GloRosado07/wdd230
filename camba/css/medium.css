@@ -67,6 +67,20 @@
     flex-direction: column;
 }
 
+.barra-navegacion {
+    display: flex;
+}
+.barra-navegacion li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+}
+.barra-navegacion a {
+    text-align: center;
+}
+.barra-navegacion li:first-child {
+    display: none;
+}
+
 .barra-navegacion, a {
     text-align: center;
     text-decoration: none;
